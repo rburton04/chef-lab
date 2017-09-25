@@ -295,7 +295,7 @@ yum_package 'nginx' do
 end
 
 template '/usr/share/nginx/www/index.html' do
-  source 'index.erb'
+  source 'index.html.erb'
   mode '0644'
 end
 
@@ -390,6 +390,7 @@ Create a new file under roles directory:
 {
   "name": "webapp-role",
   "description": "Role to configure all web nodes",
+  "json_class": "Chef::Role",
   "chef_type": "role",
   "run_list": [
     "recipe[epel::install]",
