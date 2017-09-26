@@ -10,11 +10,11 @@ The end goal of this project is be able to setup the following:
 * Run your App on your new provisioned infrastructure
 
 * You Will have CHEF SERVER and CHEF CLIENT running on your labtop to experiment with other cookbooks and build what you can imagine.
-*[Chef Supermarket] (https://supermarket.chef.io)
+* [Chef Supermarket] (https://supermarket.chef.io)
 
 This would be the end result of this provisioning:
 
-![](https://github.com/rburton04/chef-lab/tree/master/images/diagram.PNG)
+![](https://github.com/rburton04/chef-lab/blob/master/images/diagram.PNG)
 
 ## Prerequisites
 
