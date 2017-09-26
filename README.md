@@ -399,7 +399,9 @@ Create a new file under roles directory: save as webapp-role.json
 }
 ```
 Upload you roles file to the server
-knife role from file ./roles/webapp-role.json
+...
+λ knife role from file ./roles/webapp-role.json
+...
 
 Add the roles to your nodes:
 ```
