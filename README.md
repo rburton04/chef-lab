@@ -5,9 +5,12 @@ that revolve around provisioning boxes.
 
 The end goal of this project is be able to setup the following:
 * Run Chef Server locally on a Vagrant virtual machine.
-* Provision 1 load balancer and 2 Web applications through Chef
+* Provision 2 Web applications through Chef
 * Write your own cookbooks and deploy them to Chef Server.
-* Write tests for Chef
+* Run your App on your new provisioned infrastructure
+
+* You Will have CHEF SERVER and CHEF CLIENT running on your labtop to experiment with other cookbooks and build what you can imagine.
+*[Chef Supermarket] (https://supermarket.chef.io)
 
 This would be the end result of this provisioning:
 
