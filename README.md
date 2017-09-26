@@ -15,6 +15,8 @@ This would be the end result of this provisioning:
 
 ## Prerequisites
 
+* Any windows Laptop or Desktop with a minimum of 8GB of RAM
+
 * [GIT](https://git-for-windows.github.io)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](https://www.vagrantup.com/)
