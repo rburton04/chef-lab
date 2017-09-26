@@ -256,7 +256,7 @@ depends 'epel', '0.1.0' ##Add this line
 
 To fulfill this dependency, we will use `berks` command. `berks` is part of
 Berkshelf. Berkshelf is nothing more than a Nuget package manger. Berkshelf will 
-locate your cookbooks dependencies and download them locally.
+locate your cookbooks dependencies and download them locally and.
 
 Search for `cookbooks\nginx\Berksfile` and add the following:
 
