@@ -294,7 +294,7 @@ yum_package 'nginx' do
   action :install
 end
 
-template '/usr/share/nginx/www/index.html' do
+template '/usr/share/nginx/html/index.html' do
   source 'index.html.erb'
   mode '0644'
 end
@@ -325,7 +325,7 @@ Paste the following template to `index.html.erb`:
   <link rel="stylesheet" href="">
 </head>
 <body>
-  <h1>Hi</h1>
+  <h1>Hi from SWAT</h1>
   <h2>This is webserver <%= node[:fqdn] %></h2>
 </body>
 </html>
@@ -384,7 +384,7 @@ When a role is run against a node, the configuration details of that node are co
 of that role’s run-list are applied to the node’s configuration details. When a chef-client runs, it merges its own attributes and run-lists with 
 those contained within each assigned role.
 
-Create a new file under roles directory:
+Create a new file under roles directory: save as webapp-role.json 
 
 ```
 {
@@ -398,6 +398,8 @@ Create a new file under roles directory:
   ]
 }
 ```
+Upload you roles file to the server
+knife role from file ./roles/webapp-role.json
 
 Add the roles to your nodes:
 ```
