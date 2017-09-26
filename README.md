@@ -11,27 +11,30 @@ The end goal of this project is be able to setup the following:
 
 This would be the end result of this provisioning:
 
-![](https://github.com/hyeomans/chef-lab/blob/master/images/diagram.PNG)
+![](https://github.com/rburton04/chef-lab/tree/master/images/diagram.PNG)
 
 ## Prerequisites
 
-* Decent command line -> I'm using [cmder](http://cmder.net/)
-* Git -> Install [cmder](http://cmder.net/) and you will get Git
+* [GIT](https://git-for-windows.github.io)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](https://www.vagrantup.com/)
 * [Chef Development Kit - ChefDK](https://downloads.chef.io/chef-dk/)
 
+## Installs
+
+* Install Virtual Box running setup and follow instructions.
+* Install Vagrant running setup and follow instructions.
+* Install CDK running setup and following instructions.
+
 
 ## Step One - Setting up Chef Server
 
-First you have to clone this repository, open up [cmder](http://cmder.net/) and clone it.
-
-__NOTE: MAKE SURE YOUR SHELL HAS ADMINISTRATOR PRIVILEGES__
+__NOTE: MAKE SURE YOUR SHELL HAS ADMINISTRATOR PRIVILEGES__Run As Administrator
 ```
 λ cd C:\
 λ mkdir git-repos
 λ cd git-repos
-λ git clone https://github.com/hyeomans/chef-lab
+λ git clone https://github.com/rburton04/chef-lab
 λ cd chef-lab
 ```
 
@@ -421,6 +424,8 @@ C:\chef
 λ cd .\chef-lab\
 C:\chef\chef-lab
 λ vagrant ssh web2
+
+or open VirtualBox VM and login a UN:Vagrant PW:Vagrant
 
 ```
 
