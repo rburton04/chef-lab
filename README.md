@@ -69,7 +69,7 @@ All those steps, after installing Chef Server, can be found at [their Website](h
 
 The lines modifying the hosts file allow chef-server box to talk to all other nodes without knowing the IP's.
 
-Go back to [cmder](http://cmder.net/) and type the following:
+Go back to your GIT project folder and type the following:
 
 ```
 C:\chef\chef-lab
@@ -333,7 +333,7 @@ Paste the following template to `index.html.erb`:
   <link rel="stylesheet" href="">
 </head>
 <body>
-  <h1>Hi from SWAT</h1>
+  <h1>Hi SWAT you just deployed an app on you new infrastructure</h1>
   <h2>This is webserver <%= node[:fqdn] %></h2>
 </body>
 </html>
@@ -364,7 +364,7 @@ Go back to the `chef-lab` directory and bring up the missing boxes.
 
 ```
 C:\chef\\chef-lab
-λ vagrant up lb web2 web3
+λ vagrant up  web2 web3
 ```
 
 Right now, our web-servers don't know how to communicate to our installation of Chef server. `knife` provides an easy way to 
