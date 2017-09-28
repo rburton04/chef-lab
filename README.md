@@ -202,9 +202,9 @@ Inside this recipe, you need to add these two resources:
 
 ```
 #cookbooks/epel/recipes/install.rb
-execute 'yum update' do
-  command 'yum update -y'
-end
+#execute 'yum update' do
+#  command 'yum update -y'
+#end
 
 # https://fedoraproject.org/wiki/EPEL/FAQ#What_is_EPEL.3F
 yum_package 'epel-release.noarch' do
