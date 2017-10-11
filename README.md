@@ -1,5 +1,5 @@
 ## Learn Chef by doing.
-git demo
+git demo edit1
 
 This Lab will help you understand the whole concept of Chef/Chef Server/Chef DK/Knife and all Chef utilities 
 that revolve around provisioning boxes.
